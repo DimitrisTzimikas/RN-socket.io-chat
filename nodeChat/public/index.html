@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>socket.io chat</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <ul id="messages"></ul>
+
+    <form action="">
+      <label for="m"></label>
+      <input id="m" autocomplete="off"/>
+      <!-- With return false we prevent form to reload on submit -->
+      <button onclick="onClickSend(); return false;">Send</button>
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
