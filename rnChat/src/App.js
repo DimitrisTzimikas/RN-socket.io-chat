@@ -13,7 +13,7 @@ YellowBox.ignoreWarnings([
  Global variables
  ================================ */
 window.navigator.userAgent = 'react-native';
-const url = 'https://4ce48f75.ngrok.io';
+const url = 'https://3eed2986.ngrok.io';
 
 /* ==============================
  Class
